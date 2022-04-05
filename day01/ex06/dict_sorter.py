@@ -34,4 +34,3 @@ if __name__ == '__main__':
     countries = list(dict_to_sort.keys())
     countries.sort(key=lambda x: (-get_num(x), x))
     print(*countries, sep='\n')
-    countries.sort(key=lambda country: dict_to_sort[country])
