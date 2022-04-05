@@ -26,9 +26,9 @@ def read_and_write(infile=INFILE, outfile=OUTFILE):
                     elif line[i] == ',' and not quote:
                         char = '\t'
                     ofstream.write(char)
-                    print(char,end='')
+                    # print(char,end='')
             ofstream.write('\n')
-            print()
+            # print()
 
 if __name__ == '__main__':
     read_and_write()
