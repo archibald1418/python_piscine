@@ -30,7 +30,6 @@ def main():
         return print(''.join(decode(s = sys.argv[2], shift = int(sys.argv[3]))))
     if sys.argv[1] == 'encode':
         return print(''.join(encode(s = sys.argv[2], shift = int(sys.argv[3]))))
-        
 
 
 if __name__ == '__main__':
