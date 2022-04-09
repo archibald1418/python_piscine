@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 from analytics import Research
-from config import REPORT_TEMPLATE, NUM_OF_STEPS
+from config import REPORT_TEMPLATE, NUM_OF_STEPS, REPORT_FILE
 import os
+
 
 if __name__ == '__main__':
     
@@ -25,19 +26,21 @@ if __name__ == '__main__':
         predict_heads_count, \
             predict_tails_count = Research.Calculations.counts(prediction)
 
-        print(
-            REPORT_TEMPLATE % (
-            observations, 
-            heads_count, 
-            tails_count,
-            heads_fractions * 100,
-            tails_fractions * 100,
-            NUM_OF_STEPS,
-            predict_heads_count,
-            predict_tails_count
-            )
+        # print(
+        report = REPORT_TEMPLATE % (
+        observations, 
+        heads_count, 
+        tails_count,
+        heads_fractions * 100,
+        tails_fractions * 100,
+        NUM_OF_STEPS,
+        predict_heads_count,
+        predict_tails_count
         )
+
+        r.Analytics.save_file(report)
         
+        # )
         # print(data)
         # print(heads_count, tails_count)
         # print(heads_fractions, tails_fractions)

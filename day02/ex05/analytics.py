@@ -1,5 +1,5 @@
 from random import randint
-from config import NUM_OF_STEPS, HAS_HEADER
+from config import NUM_OF_STEPS, HAS_HEADER, REPORT_FILE
 
 class Research:
 
@@ -40,8 +40,9 @@ class Research:
                 return print("Data is empty")
             return Research.data[-1]
         
-        def save_file(data, name_of_file, ext='txt'):
-            pass
+        def save_file(report, name_of_file=REPORT_FILE, ext='txt'):
+            with open(f'{REPORT_FILE}.{ext}', 'w') as report_file:
+                report_file.write(report)
         
 
     @staticmethod
