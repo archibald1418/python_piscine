@@ -12,3 +12,10 @@ day02/ex02/kek
 day02/ex03/data.csv
 day02/ex05/__pycache__/*
 .vscode/launch.json
+day02/ex06/analytics.log
+day02/ex06/report.txt
+day02/ex06/__pycache__/analytics.cpython-38.pyc
+day02/ex06/__pycache__/analytics.cpython-39.pyc
+day02/ex06/__pycache__/config.cpython-38.pyc
+day02/ex06/__pycache__/config.cpython-39.pyc
+day03/ex00/__pycache__/venv.cpython-39.pyc
