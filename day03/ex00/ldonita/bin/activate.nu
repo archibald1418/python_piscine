@@ -9,7 +9,7 @@ def-env activate-virtualenv [] {
     }
 
     let is-windows = ((sys).host.name | str downcase) == 'windows'
-    let virtual-env = '/Users/ldonita/Desktop/python_ds_piscine/day03/ex00/ldonita'
+    let virtual-env = '/Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita'
     let bin = 'bin'
     let path-sep = ':'
     let path-name = if $is-windows {
@@ -89,4 +89,4 @@ def-env activate-virtualenv [] {
 activate-virtualenv
 
 alias pydoc = python -m pydoc
-alias deactivate = source '/Users/ldonita/Desktop/python_ds_piscine/day03/ex00/ldonita/bin/deactivate.nu'
+alias deactivate = source '/Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/bin/deactivate.nu'
