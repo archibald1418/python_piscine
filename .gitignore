@@ -4,3 +4,11 @@ day01/ex01/ds.tsv
 day01/ex01/ds.csv
 day01/ex08/test.py
 .vscode/*
+day01/ex08/employees.tsv
+day01/ex08/names
+day02/ex00/data.csv
+day02/ex01/first_method.py
+day02/ex02/kek
+day02/ex03/data.csv
+day02/ex05/__pycache__/*
+.vscode/launch.json
