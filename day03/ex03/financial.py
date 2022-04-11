@@ -36,10 +36,13 @@ if __name__ == '__main__':
     
     tickr, field = sys.argv[1:]
     
-    
-    resp = requests.get(url=URL.format(tickr), headers=HEADERS)
-    if resp.status_code == 404:
-        raise Exception("URL not found")
+    try:
+        resp = requests.get(url=URL.format(tickr), headers=HEADERS)
+        if resp.status_code == 404:
+            raise Exception("URL not found")
+    except requests.exceptions.ConnectionError as e:
+        print("URL NOT FOUND")
+
     
     soup = bs4.BeautifulSoup(resp.text, 'html.parser')
     
@@ -55,7 +58,7 @@ if __name__ == '__main__':
                     x.findAll('span'))),
             soup.findAll("div", {"data-test":"fin-row"})))
     
-    all_rows = dict({row[0]: list(row[1:]) for row in all_rows})
+    all_rows = dict({row[0]: row[1:] for row in all_rows})
     
     real_field_name = check_fields(field, all_rows.keys())
     if real_field_name is None:
