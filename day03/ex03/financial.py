@@ -11,6 +11,8 @@ import pickle
 URL = 'https://finance.yahoo.com/quote/{0}/financials?p={0}' # TODO: account for tickr
 HEADERS = {'User-Agent': 'curl/7.64.1'}
 
+class TickerNotFound(Exception):
+    pass
 
 def normalize_tickr(tickr):
     return tickr.lower()
@@ -32,13 +34,15 @@ def main(argv=sys.argv):
         exit()
     
     tickr, field = argv[1:]
+    url = URL.format(tickr)
     
-    try:
-        resp = requests.get(url=URL.format(tickr), headers=HEADERS)
-        if resp.status_code == 404:
-            raise Exception("URL not found")
-    except requests.exceptions.ConnectionError as e:
-        print("URL NOT FOUND")
+    headers = HEADERS
+    resp = requests.get(url=url, headers=headers)
+
+    if resp.status_code == 404:
+        raise Exception("404 not found")
+    if resp.url != url: # Redirect happened
+        raise TickerNotFound("TICKER NOT FOUND")
 
     
     soup = bs4.BeautifulSoup(resp.text, 'html.parser')
