@@ -25,16 +25,13 @@ def check_fields(field, field_names):
     return None
     
 
-
-if __name__ == '__main__':
-
-
-    argc = len(sys.argv)
+def main(argv=sys.argv):
+    argc = len(argv)
     if argc != 3:
         print("Bad args")
         exit()
     
-    tickr, field = sys.argv[1:]
+    tickr, field = argv[1:]
     
     try:
         resp = requests.get(url=URL.format(tickr), headers=HEADERS)
@@ -65,5 +62,10 @@ if __name__ == '__main__':
         raise Exception("Field not found")
     
     rowValue = tuple([real_field_name] + all_rows[real_field_name])
-    print(rowValue)
+    return rowValue
+    
+
+if __name__ == '__main__':
+    print(main())
+
     
