@@ -1,0 +1,523 @@
+('Total Revenue', '184,903,000', '168,088,000', '143,015,000', '125,843,000', '110,360,000')
+         170645 function calls (169839 primitive calls) in 1.000 seconds
+
+   Ordered by: internal time, call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      722    0.736    0.001    0.736    0.001 {method 'read' of '_ssl._SSLSocket' objects}
+        1    0.034    0.034    0.034    0.034 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.029    0.029    0.029    0.029 {method 'connect' of '_socket.socket' objects}
+        1    0.017    0.017    0.017    0.017 {method 'set_default_verify_paths' of '_ssl._SSLContext' objects}
+     1255    0.013    0.000    0.077    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:300(parse_starttag)
+        2    0.012    0.006    0.128    0.064 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:133(goahead)
+     9405    0.011    0.000    0.011    0.000 {method 'match' of 're.Pattern' objects}
+     1256    0.011    0.000    0.026    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1180(__init__)
+      435    0.006    0.000    0.006    0.000 {built-in method __new__ of type object at 0x10c77c420}
+     1255    0.006    0.000    0.038    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:694(handle_starttag)
+      950    0.006    0.000    0.011    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:295(_replace_cdata_list_attribute_values)
+2402/1648    0.005    0.000    0.011    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:2192(_matches)
+     1188    0.005    0.000    0.027    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:385(parse_endtag)
+     1255    0.005    0.000    0.045    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:122(handle_starttag)
+    29619    0.005    0.000    0.007    0.000 {built-in method builtins.isinstance}
+     1256    0.005    0.000    0.006    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:544(pushTag)
+     1780    0.004    0.000    0.018    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:2096(search_tag)
+     1255    0.004    0.000    0.008    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:660(_popToTag)
+     2104    0.004    0.000    0.004    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:157(setup)
+      809    0.003    0.000    0.003    0.000 {method 'findall' of 're.Pattern' objects}
+     4894    0.003    0.000    0.005    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_markupbase.py:48(updatepos)
+     3647    0.003    0.000    0.003    0.000 {method 'search' of 're.Pattern' objects}
+        1    0.003    0.003    1.000    1.000 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:71(main)
+        1    0.003    0.003    0.003    0.003 {built-in method _socket.getaddrinfo}
+     1255    0.003    0.000    0.003    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:530(popTag)
+     2349    0.003    0.000    0.022    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:2159(search)
+      122    0.003    0.000    0.193    0.002 {method 'read' of '_io.BufferedReader' objects}
+     2515    0.003    0.000    0.010    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:558(endData)
+     4504    0.003    0.000    0.003    0.000 {method 'group' of 're.Match' objects}
+     5824    0.002    0.000    0.002    0.000 {method 'get' of 'dict' objects}
+      424    0.002    0.000    0.004    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:592(object_was_parsed)
+     1255    0.002    0.000    0.006    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:351(check_for_whole_start_tag)
+     2912    0.002    0.000    0.002    0.000 {method 'count' of 'str' objects}
+      722    0.002    0.000    0.740    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1230(recv_into)
+      722    0.002    0.000    0.743    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:690(readinto)
+       36    0.002    0.000    0.027    0.001 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:779(_find_all)
+     1255    0.002    0.000    0.019    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:735(handle_endtag)
+        1    0.002    0.002    0.002    0.002 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:677(_to_unicode)
+     6043    0.002    0.000    0.002    0.000 {method 'append' of 'list' objects}
+     6413    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+      722    0.001    0.000    0.737    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1090(read)
+     3735    0.001    0.000    0.001    0.000 {method 'startswith' of 'str' objects}
+     5589    0.001    0.000    0.001    0.000 {method 'lower' of 'str' objects}
+     1255    0.001    0.000    0.020    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:177(handle_endtag)
+     2346    0.001    0.000    0.002    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:2059(_normalize_search_value)
+     3635    0.001    0.000    0.002    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/abc.py:117(__instancecheck__)
+     3635    0.001    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
+     1255    0.001    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1317(is_empty_element)
+     3107    0.001    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1906(descendants)
+      122    0.001    0.000    0.194    0.002 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:610(_safe_read)
+     5673    0.001    0.000    0.001    0.000 {method 'end' of 're.Match' objects}
+      424    0.001    0.000    0.003    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:934(__new__)
+3674/3664    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     5738    0.001    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1532(__bool__)
+     1256    0.001    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:205(can_be_empty_element)
+      130    0.001    0.000    0.001    0.000 {method 'join' of 'bytes' objects}
+     2353    0.001    0.000    0.001    0.000 {built-in method builtins.next}
+      899    0.001    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1489(get)
+     1847    0.001    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/__init__.py:122(unescape)
+     1259    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+      424    0.000    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:495(string_container)
+      214    0.000    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:810(<genexpr>)
+      723    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:729(readable)
+     1255    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_markupbase.py:40(getpos)
+      722    0.000    0.000    0.001    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+      722    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+     1256    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:453(set_up_substitutions)
+     1188    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:126(clear_cdata_mode)
+       80    0.000    0.000    0.002    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/re.py:289(_compile)
+       62    0.000    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:518(_read_next_chunk_size)
+      952    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+      426    0.000    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:195(handle_data)
+     2448    0.000    0.000    0.000    0.000 {method 'start' of 're.Match' objects}
+     1335    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+     1447    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1078(_checkClosed)
+        1    0.000    0.000    0.196    0.196 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:572(_readall_chunked)
+     1266    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+      428    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:745(handle_data)
+       78    0.000    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:122(set_cdata_mode)
+        1    0.000    0.000    0.000    0.000 {method 'getpeercert' of '_ssl._SSLSocket' objects}
+       62    0.000    0.000    0.002    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:548(_get_chunk_left)
+        4    0.000    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:493(_parse)
+      146    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+      577    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+     10/4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:71(_compile)
+     19/5    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       48    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:620(_linkage_fixer)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:120(__init__)
+      132    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/types.py:171(__get__)
+        1    0.000    0.000    0.000    0.000 {method 'set_ciphers' of '_ssl._SSLContext' objects}
+       87    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/__init__.py:91(_replace_charref)
+      866    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       82    0.000    0.000    0.553    0.007 {method 'readline' of '_io.BufferedReader' objects}
+       62    0.000    0.000    0.000    0.000 {method 'find' of 'bytes' objects}
+        6    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:210(_encode_invalid_chars)
+       12    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        1    0.000    0.000    0.089    0.089 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:356(connect)
+       66    0.000    0.000    0.002    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:107(handle_startendtag)
+       36    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:2011(__init__)
+       32    0.000    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:45(<lambda>)
+       81    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:233(__next)
+       36    0.000    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:2278(__init__)
+       80    0.000    0.000    0.002    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/re.py:250(compile)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:564(get_content_type)
+     10/4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:174(getwidth)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:1017(_decompose)
+      107    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:164(__getitem__)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+       36    0.000    0.000    0.027    0.001 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1871(find_all)
+      175    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:47(<lambda>)
+        1    0.000    0.000    0.004    0.004 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_.py:250(create_urllib3_context)
+       29    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:670(__new__)
+        4    0.000    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:759(compile)
+        1    0.000    0.000    0.840    0.840 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:522(urlopen)
+        1    0.000    0.000    0.034    0.034 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:983(_create)
+        1    0.000    0.000    0.000    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+       29    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:358(__call__)
+        1    0.000    0.000    0.196    0.196 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:484(read)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:330(parse_url)
+       75    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:254(get)
+        1    0.000    0.000    0.130    0.130 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:120(__init__)
+        1    0.000    0.000    0.157    0.157 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:36(get_table_from_html)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:471(_parse_headers)
+       63    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:220(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:536(_compile_info)
+        4    0.000    0.000    0.001    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_match_hostname.py:25(_dnsname_match)
+      132    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:792(value)
+        1    0.000    0.000    0.643    0.643 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:361(_make_request)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:218(_parsegen)
+       65    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:172(append)
+       14    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:355(_escape)
+        4    0.000    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:939(parse)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:243(__repr__)
+        1    0.000    0.000    0.196    0.196 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:198(__init__)
+        8    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:462(get)
+       35    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:388(_last_descendant)
+        1    0.000    0.000    0.032    0.032 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/connection.py:37(create_connection)
+       17    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/_policybase.py:293(header_source_parse)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:139(__init__)
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1241(putheader)
+    49/47    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:208(_read_headers)
+      171    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.554    0.554 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:313(begin)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:544(set_alpn_protocols)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:79(_default_key_normalizer)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1085(putrequest)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:302(makefile)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1031(_send_output)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:407(encodings)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_markupbase.py:168(parse_comment)
+      198    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:977(name)
+        1    0.000    0.000    0.196    0.196 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:584(from_httplib)
+        1    0.000    0.000    0.001    0.001 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_match_hostname.py:98(match_hostname)
+        4    0.000    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:435(_parse_sub)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:244(_remove_path_dot_segments)
+        5    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:971(__or__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:457(reset)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:122(put)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.002    0.002 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:541(__init__)
+        1    0.000    0.000    0.553    0.553 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:280(_read_status)
+       52    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:438(<genexpr>)
+       78    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1570(__eq__)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:938(_create_pseudo_member_)
+       24    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/utils.py:51(_has_surrogates)
+       32    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1287(_send_request)
+       20    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:78(readline)
+        1    0.000    0.000    0.089    0.089 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:1032(_validate_conn)
+        1    0.000    0.000    0.840    0.840 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:353(urlopen)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:451(strip_byte_order_mark)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:169(__init__)
+       23    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/_policybase.py:281(_sanitize_header)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ipaddress.py:27(ip_address)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:928(_missing_)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:977(__and__)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:598(_code)
+        3    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:274(_normalize_host)
+        1    0.000    0.000    0.001    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/parser.py:59(parsestr)
+       17    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/_collections.py:215(add)
+        6    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_collections_abc.py:760(get)
+        2    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        3    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:51(<dictcomp>)
+       61    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_iscased}
+        1    0.000    0.000    0.003    0.003 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:937(getaddrinfo)
+        2    0.000    0.000    0.002    0.001 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:342(prepare_markup)
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/idna.py:147(encode)
+        1    0.000    0.000    0.001    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:226(parse_headers)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__init__.py:70(search_function)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:224(__init__)
+        1    0.000    0.000    0.034    0.034 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1302(do_handshake)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:710(verify_mode)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:843(__init__)
+       89    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:996(_new_conn)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/_collections.py:231(extend)
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:228(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:451(items)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:34(__init__)
+        1    0.000    0.000    0.001    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/parser.py:41(parse)
+       20    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:128(__next__)
+        8    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:99(_intenum_converter)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:61(lookup)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:767(close)
+        6    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:302(_idna_encode)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_.py:457(is_ipaddress)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1193(sendall)
+       22    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:160(__len__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:481(find_declared_encoding)
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:351(notify)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:101(push)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:231(request)
+       15    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:250(__init__)
+        1    0.000    0.000    0.196    0.196 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:452(read)
+        6    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:303(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/response.py:40(assert_header_parsing)
+        1    0.000    0.000    0.001    0.001 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:531(_match_hostname)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ipaddress.py:1608(_ip_int_from_string)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:266(handle_decl)
+       12    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:286(tell)
+        1    0.000    0.000    0.017    0.017 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:569(load_default_certs)
+        1    0.000    0.000    0.002    0.002 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:646(_convert_from)
+        1    0.000    0.000    0.000    0.000 {method 'getsockname' of '_socket.socket' objects}
+        1    0.000    0.000    0.128    0.128 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:391(feed)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:53(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:263(connection_from_pool_key)
+       17    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:479(set_raw)
+        3    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:221(putheader)
+        6    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:423(_simple)
+        1    0.000    0.000    0.034    0.034 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_.py:355(ssl_wrap_socket)
+       10    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:111(__init__)
+        6    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/re.py:270(escape)
+        2    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        1    0.000    0.000    0.554    0.554 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1333(getresponse)
+       23    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/_policybase.py:311(header_fetch_parse)
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1335(_fixupParents)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:432(_uniq)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:171(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:132(host)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:115(__init__)
+       43    0.000    0.000    0.000    0.000 {built-in method _sre.unicode_tolower}
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1689(isEnabledFor)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:513(family)
+        3    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/timeout.py:102(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:314(__init__)
+        1    0.000    0.000    0.840    0.840 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:55(fetch_page_urllib3)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ipaddress.py:1175(_ip_int_from_string)
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:255(parse_html_declaration)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:432(_generate_overlap_table)
+        1    0.000    0.000    0.032    0.032 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:161(_new_conn)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:95(reset)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        2    0.000    0.000    0.010    0.005 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1846(find)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/__init__.py:43(normalize_encoding)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1372(version)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:344(__init__)
+     19/5    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/abc.py:121(__subclasscheck__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:297(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:459(<listcomp>)
+       12    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/packages/six.py:1015(ensure_text)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:428(_error_catcher)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ipaddress.py:1274(__init__)
+       19    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:923(fix_flags)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1284(getLogger)
+        3    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        4    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/_collections.py:156(__getitem__)
+        4    0.000    0.000    0.000    0.000 {method 'sort' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:66(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:678(__init__)
+        1    0.000    0.000    0.840    0.840 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/request.py:82(request_encode_url)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/encodings/idna.py:300(getregentry)
+        1    0.000    0.000    0.840    0.840 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/request.py:58(request)
+        1    0.000    0.000    0.034    0.034 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:494(wrap_socket)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/connection.py:100(_set_socket_options)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:76(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:912(__init__)
+       14    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:249(match)
+        8    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:595(isstring)
+        6    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/_collections.py:141(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1120(getpeercert)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ipaddress.py:1880(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_collections_abc.py:78(_check_methods)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:29(_splitparam)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:91(__new__)
+       28    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/collections/__init__.py:595(__missing__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:21(field_name_ok)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/collections/__init__.py:581(__init__)
+       17    0.000    0.000    0.000    0.000 {method 'setdefault' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:213(get_payload)
+        4    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/packages/six.py:992(ensure_str)
+       20    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:75(__init__)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:414(_close_conn)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:208(putrequest)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:324(_get_timeout)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:257(handle_comment)
+        6    0.000    0.000    0.000    0.000 {method 'subn' of 're.Pattern' objects}
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:259(__exit__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1404(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/_collections.py:61(__setitem__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__import__}
+        3    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:503(detach)
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/_collections.py:47(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:740(__str__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:189(_new_pool)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1551(__getattr__)
+        8    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:81(groups)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py:123(__exit__)
+        1    0.000    0.000    0.128    0.128 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:444(_feed)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:431(flush)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:225(connection_from_host)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_compile.py:492(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:139(__init__)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:434(__iter__)
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:271(_is_owned)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:154(get)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/queue.py:18(_put)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:178(_call_parse)
+        1    0.000    0.000    0.004    0.004 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:482(__new__)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:218(_acquireLock)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:596(options)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/_htmlparser.py:238(handle_entityref)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        4    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:391(_usable)
+        6    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:223(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:972(send)
+       17    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:256(__enter__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ipaddress.py:1845(_split_scope_id)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/_collections.py:54(__getitem__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:248(connection_from_context)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:237(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:2034(getLogger)
+       16    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_collections_abc.py:409(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:372(_init_decoder)
+       12    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:413(ensure_type)
+        4    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1010(_output)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:297(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:323(set_cert)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/codecs.py:94(__new__)
+        9    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/timeout.py:119(_validate_timeout)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/retry.py:448(_is_method_retryable)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:122(pushlines)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:244(_get_conn)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:283(_put_conn)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:600(options)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:395(_decode)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:70(close)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:197(_new_message)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/timeout.py:181(clone)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:210(_pop_message)
+        2    0.000    0.000    0.000    0.000 {function SocketIO.close at 0x10cca93a0}
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_collections_abc.py:504(__subclasshook__)
+        1    0.000    0.000    0.034    0.034 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_.py:481(_ssl_wrap_socket_impl)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:184(close)
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:588(get_content_maintype)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1282(request)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py:86(__init__)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1424(debug)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1166(send)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:709(_codec)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/os.py:674(__getitem__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:961(_prepare_conn)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1269(endheaders)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:419(close)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py:114(__enter__)
+        4    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        3    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_.py:211(resolve_cert_reqs)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:519(type)
+       18    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:320(_encode_target)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:227(_releaseLock)
+        1    0.000    0.000    0.128    0.128 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:103(feed)
+        2    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/retry.py:468(is_retry)
+       16    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py:1040(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:693(find_codec)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:638(closed)
+        6    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/timeout.py:195(start_connect)
+        6    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:41(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:320(_init_length)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_match_hostname.py:79(_to_unicode)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:811(_get_content_length)
+        5    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        5    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        5    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        6    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:173(feed)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:718(verify_mode)
+        3    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/queue.py:15(_qsize)
+        1    0.000    0.000    0.000    0.000 {method '_set_alpn_protocols' of '_ssl._SSLContext' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/request.py:101(set_file_position)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/timeout.py:165(from_float)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:534(_read_and_discard_trailer)
+       11    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:192(_is_using_tunnel)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/parser.py:17(__init__)
+        6    0.000    0.000    0.000    0.000 {method 'decode' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:620(getheader)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:82(RLock)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:486(_encode_hostname)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.lookup}
+        3    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:385(_check_close)
+        3    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/os.py:754(encode)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:487(_decref_socketios)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/queue.py:21(_get)
+        2    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1675(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:29(check_fields)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:549(_initialize_xml_detector)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:86(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:684(declared_html_encoding)
+        1    0.000    0.000    0.000    0.000 {method 'version' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/contextlib.py:261(helper)
+        1    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:265(get_redirect_location)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/queue.py:12(_init)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_.py:234(resolve_ssl_version)
+        5    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/connection.py:108(allowed_gai_family)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/request.py:40(__init__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1212(_encode_request)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1289(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:181(is_multipart)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1216(_validate_method)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/url.py:114(request_uri)
+        2    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:1093(_normalize_host)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:107(__new__)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/_markupbase.py:36(reset)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/timeout.py:238(read_timeout)
+        2    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1082(_check_connected)
+        3    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/message.py:303(set_payload)
+        2    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1233(_validate_host)
+        4    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:1225(_validate_path)
+        3    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:254(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:278(release_conn)
+        3    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/timeout.py:220(connect_timeout)
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:303(_merge_pool_kwargs)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:771(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:193(_checkLevel)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/retry.py:340(from_int)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:442(isclosed)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1224(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/__init__.py:209(deprecated_argument)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/collections/__init__.py:649(update)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/ssl_.py:325(disable_check_hostname)
+        4    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/html/parser.py:112(close)
+        2    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:197(reset)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:189(initialize_soup)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/http/client.py:889(_get_hostport)
+        2    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:336(_validate_proxy_scheme_url_selection)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/builder/__init__.py:569(_root_tag_encountered)
+        2    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:417(_flush_decoder)
+        2    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/response.py:296(data)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/element.py:1536(__setitem__)
+        2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/email/feedparser.py:125(__iter__)
+        1    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'bytearray' objects}
+        2    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/bs4/dammit.py:383(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/logging/__init__.py:1276(disable)
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connection.py:151(host)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:314(_validate_conn)
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:323(_proxy_requires_url_absolute_form)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+        1    0.000    0.000    0.000    0.000 {built-in method _socket.getdefaulttimeout}
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/util/proxy.py:4(connection_requires_http_tunnel)
+        1    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x10cd69940}
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x10cc26940}
+
+

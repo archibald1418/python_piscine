@@ -1,0 +1,19 @@
+('Total Revenue', '184,903,000', '168,088,000', '143,015,000', '125,843,000', '110,360,000')
+         170725 function calls (169919 primitive calls) in 0.936 seconds
+
+   Ordered by: cumulative time
+   List reduced from 515 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.003    0.003    0.936    0.936 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:71(main)
+        1    0.000    0.000    0.814    0.814 /Users/user/Downloads/python_ds_piscine/day03/ex04/./financial_enhanced.py:55(fetch_page_urllib3)
+        1    0.000    0.000    0.814    0.814 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/request.py:58(request)
+        1    0.000    0.000    0.814    0.814 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/request.py:82(request_encode_url)
+        1    0.000    0.000    0.814    0.814 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/poolmanager.py:353(urlopen)
+        1    0.000    0.000    0.814    0.814 /Users/user/Downloads/python_ds_piscine/day03/ex00/ldonita/lib/python3.9/site-packages/urllib3/connectionpool.py:522(urlopen)
+      730    0.003    0.000    0.697    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py:690(readinto)
+      730    0.003    0.000    0.692    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1230(recv_into)
+      730    0.002    0.000    0.689    0.001 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/ssl.py:1090(read)
+      730    0.687    0.001    0.687    0.001 {method 'read' of '_ssl._SSLSocket' objects}
+
+
